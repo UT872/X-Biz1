@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>特定商取引法に基づく表記 - BizLog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-gradient: radial-gradient(circle at top right, #1e293b, #0f172a);
+            --card-bg: rgba(30, 41, 59, 0.7);
+            --accent-color: #38bdf8;
+            --text-main: #f1f5f9;
+            --text-sub: #94a3b8;
+            --border-color: rgba(255, 255, 255, 0.1);
+            --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+        }
+
+        * { box-sizing: border-box; }
+        body {
+            font-family: 'Inter', 'Noto Sans JP', sans-serif;
+            background: var(--bg-gradient);
+            background-attachment: fixed;
+            color: var(--text-main);
+            line-height: 1.7;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .container {
+            max-width: 850px;
+            width: 90%;
+            margin: 60px 0;
+            padding: 60px;
+            background: var(--card-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: 24px;
+            border: 1px solid var(--border-color);
+            box-shadow: var(--glass-shadow);
+        }
+
+        header { text-align: center; margin-bottom: 60px; }
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            background: linear-gradient(to right, #fff, var(--accent-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 20px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        th {
+            width: 30%;
+            color: var(--accent-color);
+            font-weight: 700;
+            vertical-align: top;
+        }
+
+        td { color: #cbd5e1; }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: var(--text-sub);
+            font-size: 0.8rem;
+        }
+
+        @media (max-width: 768px) {
+            .container { padding: 30px 20px; }
+            h1 { font-size: 1.6rem; }
+            th, td { display: block; width: 100%; padding: 10px 5px; }
+            th { border-bottom: none; padding-bottom: 0; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>特定商取引法に基づく表記</h1>
+    </header>
+
+    <table>
+        <tr>
+            <th>販売事業者</th>
+            <td>Teppei Uomi</td>
+        </tr>
+        <tr>
+            <th>所在地</th>
+            <td>東京都（詳細は請求に基づき遅滞なく電子メールにて回答いたします）</td>
+        </tr>
+        <tr>
+            <th>お問い合わせ</th>
+            <td>BizLog-support@gmail.com</td>
+        </tr>
+        <tr>
+            <th>販売価格</th>
+            <td>アプリ内の購入画面に表示される価格（税込）</td>
+        </tr>
+        <tr>
+            <th>代金の支払時期・方法</th>
+            <td>Apple Inc.（App Store）が提供する決済手段によります。</td>
+        </tr>
+        <tr>
+            <th>提供時期</th>
+            <td>決済手続き完了後、即時に利用可能となります。</td>
+        </tr>
+        <tr>
+            <th>返品・キャンセル</th>
+            <td>デジタルコンテンツの性質上、決済完了後のキャンセル・返品（返金）は原則としてお受けできません。App Storeのポリシーに基づき、Apple社が返金を認めた場合に限り、返金される場合があります。</td>
+        </tr>
+        <tr>
+            <th>定期課金（サブスクリプション）の解約</th>
+            <td>iOSの設定アプリ＞Apple ID＞サブスクリプション よりいつでも解約可能です。次回更新日の24時間前までに解約を完了させる必要があります。解約後も有効期限内は有料機能を利用可能です。</td>
+        </tr>
+        <tr>
+            <th>動作環境</th>
+            <td>iOS 15.0以降を搭載したiPhone端末。詳細はApp Storeの製品ページをご確認ください。</td>
+        </tr>
+    </table>
+
+    <footer>
+        &copy; 2026 Teppei Uomi. All rights reserved.
+    </footer>
+</div>
+
+</body>
+</html>
